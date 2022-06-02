@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/adaptive_icon_foreground.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/res/drawable-xxhdpi-v4/adaptive_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/icon_with_gradient.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/res/drawable-xxhdpi-v4/icon_with_gradient.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/adaptive_icon_background.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/res/drawable-xxhdpi-v4/adaptive_icon_background.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    }
+]

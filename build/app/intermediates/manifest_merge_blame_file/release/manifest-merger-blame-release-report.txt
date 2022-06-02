@@ -1,0 +1,412 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trailer_tracking.tracking"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:3:5-78
+11-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:6:5-75
+14-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:6:22-72
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:8:5-81
+16-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:9:5-81
+17-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:10:5-65
+18-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:10:22-62
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
+19-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:22-65
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+20-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+21-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+22-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:5-82
+23-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:22-79
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/af45d33866097ccc6ff6d19ce0ae1c7c/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+24-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/af45d33866097ccc6ff6d19ce0ae1c7c/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:11:4-46:19
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.6.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/875654acb8fd75501dc33efa1bebb479/core-1.6.0/AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:13:9-43
+34        android:label="Trailer Tracking"
+34-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:12:9-41
+35        android:requestLegacyExternalStorage="true" >
+35-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:14:8-51
+36        <meta-data
+36-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:16:8-18:70
+37            android:name="com.google.android.geo.API_KEY"
+37-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:17:12-57
+38            android:value="AIzaSyCLOG6cNqwSL-85l90ZTzlArpUk_hSiwm4" />
+38-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:18:12-67
+39
+40        <activity
+40-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:20:9-40:20
+41            android:name="com.trailer_tracking.tracking.MainActivity"
+41-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:21:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:25:13-163
+43            android:exported="true"
+43-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:22:13-36
+44            android:hardwareAccelerated="true"
+44-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:26:13-47
+45            android:launchMode="singleTop"
+45-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:23:13-43
+46            android:theme="@style/LaunchTheme"
+46-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:24:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:27:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:32:13-35:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:33:15-70
+57                android:resource="@style/NormalTheme" />
+57-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:34:15-52
+58
+59            <intent-filter>
+59-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:36:13-39:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:37:17-68
+60-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:37:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:38:17-76
+62-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:38:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:43:9-45:33
+70            android:name="flutterEmbedding"
+70-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:44:13-44
+71            android:value="2" />
+71-->/Users/anavadya/Documents/GitHub/Trailer Tracking/android/app/src/main/AndroidManifest.xml:45:13-30
+72
+73        <service
+73-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+74            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+74-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+75            android:exported="false"
+75-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+76            android:permission="android.permission.BIND_JOB_SERVICE" />
+76-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+77        <service
+77-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+78            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+78-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+79            android:exported="false" >
+79-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+80            <intent-filter>
+80-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+81                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+81-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+81-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+82            </intent-filter>
+83        </service>
+84
+85        <receiver
+85-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+86            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+86-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+87            android:exported="true"
+87-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+88            android:permission="com.google.android.c2dm.permission.SEND" >
+88-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+89            <intent-filter>
+89-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+90                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+90-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+90-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+91            </intent-filter>
+92        </receiver>
+93
+94        <service
+94-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:18-89
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:54:13-37
+98            <meta-data
+98-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+99-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+101            <meta-data
+101-->[:firebase_core] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+102-->[:firebase_core] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_core] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:55:13-57:85
+105                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+105-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:56:17-119
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:57:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/ef6f54742daa5db231746a4d7dffc9e1/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:28:13-30:85
+108                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+108-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/ef6f54742daa5db231746a4d7dffc9e1/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:29:17-115
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/ef6f54742daa5db231746a4d7dffc9e1/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:30:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/af45d33866097ccc6ff6d19ce0ae1c7c/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+111                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+111-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/af45d33866097ccc6ff6d19ce0ae1c7c/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/af45d33866097ccc6ff6d19ce0ae1c7c/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-installations:17.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/75696b8cf80c33699685bc2305e50db4/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+114                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+114-->[com.google.firebase:firebase-installations:17.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/75696b8cf80c33699685bc2305e50db4/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-installations:17.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/75696b8cf80c33699685bc2305e50db4/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+116        </service>
+117
+118        <provider
+118-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+119            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+119-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+120            android:authorities="com.trailer_tracking.tracking.flutterfirebasemessaginginitprovider"
+120-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+121            android:exported="false"
+121-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+122            android:initOrder="99" />
+122-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+123        <provider
+123-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+124            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+124-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+125            android:authorities="com.trailer_tracking.tracking.flutter.image_provider"
+125-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+126            android:exported="false"
+126-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+127            android:grantUriPermissions="true" >
+127-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+128            <meta-data
+128-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+130                android:resource="@xml/flutter_image_picker_file_paths" />
+130-->[:image_picker_android] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+131        </provider>
+132
+133        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+133-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:9-106
+133-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:19-103
+134        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+134-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-20:20
+134-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:19-107
+135            <intent-filter>
+135-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-19:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:17-79
+136-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:25-76
+137                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+137-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:17-84
+137-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:25-81
+138                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+138-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-82
+138-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-79
+139                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+139-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:17-82
+139-->[:flutter_local_notifications] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:25-79
+140            </intent-filter>
+141        </receiver>
+142        <receiver
+142-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:31:9-38:20
+143            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+143-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:32:13-78
+144            android:exported="true"
+144-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:33:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:34:13-73
+146            <intent-filter>
+146-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+147-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+148            </intent-filter>
+149        </receiver>
+150        <!--
+151             FirebaseMessagingService performs security checks at runtime,
+152             but set to not exported to explicitly avoid allowing another app to call it.
+153        -->
+154        <service
+154-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:44:9-51:19
+155            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+155-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:45:13-82
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:46:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-messaging:23.0.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2a4ed9f2ef45b8e5be634b9460533939/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:47:13-37
+158            <intent-filter android:priority="-500" >
+158-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+159                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+159-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
+159-->[:firebase_messaging] /Users/anavadya/Documents/GitHub/Trailer Tracking/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+160            </intent-filter>
+161        </service>
+162
+163        <uses-library
+163-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+164            android:name="androidx.window.extensions"
+164-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+165            android:required="false" />
+165-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+166        <uses-library
+166-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+167            android:name="androidx.window.sidecar"
+167-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+168            android:required="false" />
+168-->[androidx.window:window:1.0.0-beta04] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/9a30143a20a029e68d2a2c8980fee508/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+169
+170        <service
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+171            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+172            android:exported="false" >
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+173            <meta-data
+173-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+174                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+174-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+175                android:value="cct" />
+175-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/e73cf967fd64c7abbc8ee925a29db010/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+176        </service>
+177        <service
+177-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+178            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+178-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+179            android:exported="false"
+179-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" >
+180-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+181        </service>
+182
+183        <receiver
+183-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+184            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+184-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+185            android:exported="false" />
+185-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/a3468d8a5d8a05f4928960279c51ceba/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+186
+187        <provider
+187-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+188            android:name="com.google.firebase.provider.FirebaseInitProvider"
+188-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+189            android:authorities="com.trailer_tracking.tracking.firebaseinitprovider"
+189-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+190            android:directBootAware="true"
+190-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+191            android:exported="false"
+191-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+192            android:initOrder="100" />
+192-->[com.google.firebase:firebase-common:20.1.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/eb8f2d939ce0af8150b8a3f7bc61f475/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+193
+194        <receiver
+194-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+195            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+195-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+197            android:exported="false" >
+197-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+198        </receiver>
+199
+200        <service
+200-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+201            android:name="com.google.android.gms.measurement.AppMeasurementService"
+201-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+203            android:exported="false" />
+203-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+204        <service
+204-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+205            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+205-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+206            android:enabled="true"
+206-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+208            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+208-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/8cd43dcd3ab89a39289ec50fb78806d2/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+209        <uses-library
+209-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+210            android:name="org.apache.http.legacy"
+210-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+211            android:required="false" />
+211-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/7312349d45b89be6e8bb629bb8ce91f5/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+212
+213        <activity
+213-->[com.google.android.gms:play-services-base:18.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+214-->[com.google.android.gms:play-services-base:18.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-base:18.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.google.android.gms:play-services-base:18.0.1] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/37425ca1da537beeff65bfee35ec9b80/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+217
+218        <meta-data
+218-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2ffdea9840cb447d8a46ba75a1207d80/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+219            android:name="com.google.android.gms.version"
+219-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2ffdea9840cb447d8a46ba75a1207d80/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+220            android:value="@integer/google_play_services_version" />
+220-->[com.google.android.gms:play-services-basement:18.0.0] /Users/anavadya/.gradle/caches/transforms-2/files-2.1/2ffdea9840cb447d8a46ba75a1207d80/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+221    </application>
+222
+223</manifest>

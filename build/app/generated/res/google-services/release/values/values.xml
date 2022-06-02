@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">773922542153-e449j88m0ldlmbsbqgfnlo620k3h2pr4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">773922542153</string>
+    <string name="google_api_key" translatable="false">AIzaSyBnawFrv5ZDYjWYU0fNfwSDQjaqU0Ca2Dw</string>
+    <string name="google_app_id" translatable="false">1:773922542153:android:ce1341fac2db7964432598</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBnawFrv5ZDYjWYU0fNfwSDQjaqU0Ca2Dw</string>
+    <string name="google_storage_bucket" translatable="false">trailer-tracking-a8585.appspot.com</string>
+    <string name="project_id" translatable="false">trailer-tracking-a8585</string>
+</resources>

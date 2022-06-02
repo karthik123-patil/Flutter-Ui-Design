@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773922542153",
+    "project_id": "trailer-tracking-a8585",
+    "storage_bucket": "trailer-tracking-a8585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773922542153:android:ce1341fac2db7964432598",
+        "android_client_info": {
+          "package_name": "com.trailer_tracking.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773922542153-e449j88m0ldlmbsbqgfnlo620k3h2pr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnawFrv5ZDYjWYU0fNfwSDQjaqU0Ca2Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773922542153-e449j88m0ldlmbsbqgfnlo620k3h2pr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
